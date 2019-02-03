@@ -1,6 +1,6 @@
 import { takeEvery, call, fork } from 'redux-saga/effects';
 import * as actions from '../actions/users';
-import * as api '../api/users';
+import * as api from '../api/users';
 
 function* getUsers() {
   try {
